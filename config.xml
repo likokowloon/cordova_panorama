@@ -23,5 +23,7 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <plugin name="cordova-plugin-camera" spec="^4.0.3" />
+    <plugin name="custom-plugin-panorama" spec="dev-plugins/custom-plugin-panorama" />
     <engine name="ios" spec="~4.5.5" />
 </widget>

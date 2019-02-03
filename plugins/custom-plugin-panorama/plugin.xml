@@ -24,18 +24,6 @@
             <clobbers target="PanoramicCamera" />
         </js-module>
 
-        <header-file src="src/ios/PLITInfoView.h" />
-        <source-file src="src/ios/PLITInfoView.m" />
-        <header-file src="src/ios/PLITViewerVC+Controls.h" />
-        <source-file src="src/ios/PLITViewerVC+Controls.m" />
-        <header-file src="src/ios/PLITViewerVC.h" />
-        <source-file src="src/ios/PLITViewerVC.m" />
-        <header-file src="src/ios/UINavigationControllerLandscape.h" />
-        <source-file src="src/ios/UINavigationControllerLandscape.m" />
         <source-file src="src/ios/PanoramicCamera.swift" />
-        <source-file src="src/ios/ViewController.swift" />
-        <source-file src="src/ios/AppDelegate.swift" />
-        <source-file src="src/ios/libDMD_LITE.a" framework="true" />
-        <source-file src="src/ios/Vuepanorama.m" />
     </platform>
 </plugin>

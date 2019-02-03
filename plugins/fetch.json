@@ -6,29 +6,5 @@
     },
     "is_top_level": true,
     "variables": {}
-  },
-  "cordova-plugin-add-swift-support": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-add-swift-support"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-camera": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-camera@4.0.3"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "custom-plugin-panorama": {
-    "source": {
-      "type": "local",
-      "path": "/Users/liko/cordova_panorama/node_modules/custom-plugin-panorama"
-    },
-    "is_top_level": true,
-    "variables": {}
   }
 }

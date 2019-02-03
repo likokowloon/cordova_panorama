@@ -4,96 +4,16 @@
     "uninstalled": []
   },
   "config_munge": {
-    "files": {
-      "config.xml": {
-        "parents": {
-          "/*": [
-            {
-              "xml": "<feature name=\"Camera\"><param name=\"ios-package\" value=\"CDVCamera\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<preference name=\"CameraUsesGeolocation\" value=\"false\" />",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"PanoramicCamera\"><param name=\"ios-package\" value=\"PanoramicCamera\" /></feature>",
-              "count": 1
-            }
-          ]
-        }
-      }
-    }
+    "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-add-swift-support": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "cordova-plugin-camera": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "custom-plugin-panorama": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
   "dependent_plugins": {},
-  "modules": [
-    {
-      "id": "cordova-plugin-camera.Camera",
-      "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
-      "pluginId": "cordova-plugin-camera",
-      "clobbers": [
-        "Camera"
-      ]
-    },
-    {
-      "id": "cordova-plugin-camera.CameraPopoverOptions",
-      "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
-      "pluginId": "cordova-plugin-camera",
-      "clobbers": [
-        "CameraPopoverOptions"
-      ]
-    },
-    {
-      "id": "cordova-plugin-camera.camera",
-      "file": "plugins/cordova-plugin-camera/www/Camera.js",
-      "pluginId": "cordova-plugin-camera",
-      "clobbers": [
-        "navigator.camera"
-      ]
-    },
-    {
-      "id": "cordova-plugin-camera.CameraPopoverHandle",
-      "file": "plugins/cordova-plugin-camera/www/ios/CameraPopoverHandle.js",
-      "pluginId": "cordova-plugin-camera",
-      "clobbers": [
-        "CameraPopoverHandle"
-      ]
-    },
-    {
-      "id": "custom-plugin-panorama.PanoramicCamera",
-      "file": "plugins/custom-plugin-panorama/www/PanoramicCamera.js",
-      "pluginId": "custom-plugin-panorama",
-      "clobbers": [
-        "PanoramicCamera"
-      ]
-    },
-    {
-      "id": "custom-plugin-panorama.PanoramicCamera",
-      "file": "plugins/custom-plugin-panorama/www/PanoramicCamera.js",
-      "pluginId": "custom-plugin-panorama",
-      "clobbers": [
-        "PanoramicCamera"
-      ]
-    }
-  ],
+  "modules": [],
   "plugin_metadata": {
-    "cordova-plugin-add-swift-support": "1.7.2",
-    "cordova-plugin-camera": "4.0.3",
-    "cordova-plugin-whitelist": "1.3.3",
-    "custom-plugin-panorama": "0.1.0"
+    "cordova-plugin-whitelist": "1.3.3"
   }
 }

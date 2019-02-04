@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="custom-plugin-panorama"
-    version="0.1.0">
-    <name>PanoramicCamera</name>
-    <description>Custom Camera Plugin</description>
-    <license>Apache 2.0</license>
-    <keywords>camera</keywords>
+        id="custom-plugin-panorama"
+        version="0.1.0">
 
-    <!-- ① -->
-    <js-module src="www/PanoramicCamera.js" name="PanoramicCamera">
-        <clobbers target="PanoramicCamera" />
-    </js-module>
+  <name>custom-plugin-panorama</name>
+  <description>panorama plugin</description>
+  <license>MIT</license>
+  <js-module src="www/panorama.js" name="panorama">
+    <clobbers target="Panorama" />
+  </js-module>
 
-    <!-- ② -->
-    <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-            <feature name="PanoramicCamera">
-                <param name="ios-package" value="PanoramicCamera" />
-            </feature>
-        </config-file>
-
-        <js-module src="www/PanoramicCamera.js" name="PanoramicCamera">
-            <clobbers target="PanoramicCamera" />
-        </js-module>
-
-        <source-file src="src/ios/PanoramicCamera.swift" />
-    </platform>
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="Panorama">
+        <param name="ios-package" value="Panorama" onload="true" />
+      </feature>
+    </config-file>
+    <header-file src="src/ios/UINavigationControllerLandscape.h" />
+    <source-file src="src/ios/UINavigationControllerLandscape.m" />
+    <header-file src="src/ios/PLITInfoView.h" />
+    <source-file src="src/ios/PLITInfoView.m" />
+    <header-file src="src/ios/PLITViewerVC+Controls.h" />
+    <source-file src="src/ios/PLITViewerVC+Controls.m" />
+    <header-file src="src/ios/PLITViewerVC.h" />
+    <source-file src="src/ios/PLITViewerVC.mm" />
+    <source-file src="src/ios/libDMD_LITE.a" />
+    <header-file src="src/ios/DMD-Bridging-Header.h" />
+    <header-file src="src/ios/DMD_LITE.h" />
+    <source-file src="src/ios/DMDAssets.bundle" />
+    <source-file src="src/ios/Panorama.swift" />
+  </platform>
 </plugin>

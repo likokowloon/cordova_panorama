@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="wewi-plugin-sample"
+        version="0.1.0">
+
+   <!-- 名前はlsで表示される -->
+  <name>WeWiPluginSample</name>
+  <description>Wewi Sample Plugin</description>
+  <license>MIT</license>
+  <js-module src="www/sample.js" name="sample">
+    <!-- 呼び出す時の名前 -->
+    <clobbers target="Sample" />
+  </js-module>
+
+  <!-- iOS -->
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="Sample">
+        <param name="ios-package" value="Sample" onload="true" />
+      </feature>
+    </config-file>
+    <!-- header と source定義 -->
+    <header-file src="src/ios/Sample.h" />
+    <source-file src="src/ios/Sample.m" />
+  </platform>
+
+</plugin> 

@@ -1,0 +1,15 @@
+{
+    "name": "wewi-plugin-sample",
+    "version": "1.0.0",
+    "cordova": {
+        "id": "wewi-plugin-sample",
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    },
+    "description": "A starting point for a Cordova Plugin",
+    "dependencies": {
+        "gulp": "^3.9.1"
+    }
+}

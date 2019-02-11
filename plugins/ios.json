@@ -10,19 +10,19 @@
     "cordova-plugin-add-swift-support": {
       "PACKAGE_NAME": "com.example.hello"
     },
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.example.hello"
-    },
-    "custom-plugin-panorama": {
-      "PACKAGE_NAME": "com.example.hello"
-    },
     "cordova-plugin-photo-library": {
       "PHOTO_LIBRARY_USAGE_DESCRIPTION": "To choose photos",
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.example.hello"
     }
   },
   "dependent_plugins": {
     "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "custom-plugin-panorama": {
       "PACKAGE_NAME": "com.example.hello"
     }
   }

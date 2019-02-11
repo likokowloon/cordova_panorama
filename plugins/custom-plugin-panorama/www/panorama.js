@@ -1,6 +1,5 @@
 var exec = require('cordova/exec');
 
-/**
 var Panorama = {
 
   start: function() {
@@ -8,19 +7,3 @@ var Panorama = {
   }
 };
 module.exports = Panorama;
-**/
-
-var panorama = {};
-
-panorama.loadView = function (success, error) {
-
-  cordova.exec(
-    function (result) {
-      success(result);
-    },
-    error,
-    'Panorama',
-    'loadView', []
-  );
-
-};

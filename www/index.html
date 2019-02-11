@@ -1,69 +1,17 @@
-<!DOCTYPE html>
 <html>
     <head>
-	     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: content: blob: cdvphotolibrary:;">
-        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Hello World</title>
-    </head>
+        <meta http-equiv="Content-Security-Policy" content="default-src * gap: file:; style-src 'self' 'unsafe-inline'; img-src 'self' data:; script-src * 'unsafe-inline' 'unsafe-eval'">
+            <title>Hello Cordova</title>
+            <script>
+                function load() {
+                    alert(custom.plugin.panorama);
+                    custom.plugin.panorama.start();
+                }
+            </script>
+            
+            </head>
     <body>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-	      <br />
-      	Gallery App
-      	<br />
-      	<br />
-      	<button onclick="loadView()">Load Gallery</button>
-      	<br />
-      	<br />
-      	<div id="gallery"></div>
-
-	<script>
-
-  function loadView() {
-    cordova.plugins.panorama.loadView();
-  }
-
-  function loadPhotos(retry) {
-            var gallery = document.getElementById('gallery');
-            while (gallery.firstChild) gallery.removeChild(gallery.firstChild);
-            cordova.plugins.photoLibrary.getLibrary(
-                function (chunk) {
-                    var library = chunk.library;
-                    library.forEach(function (libraryItem) {
-                        var img = document.createElement('img');
-                        img.setAttribute('src',libraryItem.thumbnailURL);
-                        img.setAttribute('width','100%');
-                        gallery.appendChild(img);
-                    });
-                }, function(err) {
-                 if (!retry || err.startsWith('Permission')) {
-                     requestAuthorization();
-                 }  else {
-                     console.log('Error in getLibrary: ' + err);
-                 }
-                }, {
-                    chunkTimeSec: 0.3
-                }
-            );
-        }
-        function requestAuthorization() {
-            cordova.plugins.photoLibrary.requestAuthorization(
-                function() {
-                    loadPhotos(true); //Retry
-                },
-                function (err) {
-                    var gallery = document.getElementById('gallery');
-                    gallery.innerHTML = "Auth Error";
-                }, {
-                    read: true,
-                    write: false
-                }
-            );
-        }
-	</script>
+        test
+        <button onclick="load()">Load</button>
     </body>
 </html>

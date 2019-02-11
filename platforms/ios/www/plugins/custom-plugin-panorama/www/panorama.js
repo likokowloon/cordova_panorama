@@ -1,4 +1,4 @@
-cordova.define("custom-plugin-panorama.panorama", function(require, exports, module) {
+//cordova.define("custom-plugin-panorama.Panorama", function(require, exports, module) {
 var exec = require('cordova/exec');
 
 var Panorama = {
@@ -9,5 +9,4 @@ var Panorama = {
 };
 module.exports = Panorama;
 
-
-});
+//});

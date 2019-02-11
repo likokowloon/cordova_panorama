@@ -8,39 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		1A2D4C206A87485CBF697A84 /* PhotoLibraryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E57F04BE764148A2908D37 /* PhotoLibraryProtocol.swift */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		228E073031E94ADEA2919C6A /* Panorama.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF14AEFA61406CA11999C4 /* Panorama.swift */; };
-		25BAFAC722079602007DEA6D /* PLITViewerVC+Controls.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAFABC22079600007DEA6D /* PLITViewerVC+Controls.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		25BAFAC922079602007DEA6D /* PLITViewerVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 25BAFABE22079601007DEA6D /* PLITViewerVC.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		25BAFACC22079602007DEA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BAFAC122079601007DEA6D /* AppDelegate.swift */; };
-		25BAFACF22079602007DEA6D /* UINavigationControllerLandscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAFAC422079602007DEA6D /* UINavigationControllerLandscape.m */; };
-		25BAFAD022079602007DEA6D /* PLITInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAFAC522079602007DEA6D /* PLITInfoView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		25BAFADE2207A236007DEA6D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BAFADD2207A236007DEA6D /* AVFoundation.framework */; };
-		25BAFAE02207A246007DEA6D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BAFADF2207A245007DEA6D /* QuartzCore.framework */; };
-		25BAFAE22207A253007DEA6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BAFAE12207A253007DEA6D /* CoreGraphics.framework */; };
-		25BAFAE42207A25D007DEA6D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BAFAE32207A25D007DEA6D /* CoreMotion.framework */; };
-		25BAFAE62207A270007DEA6D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BAFAE52207A270007DEA6D /* CoreMedia.framework */; };
-		25BAFAE82207A27E007DEA6D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BAFAE72207A27E007DEA6D /* CoreLocation.framework */; };
-		25BAFAEA2207A336007DEA6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BAFAE92207A335007DEA6D /* UIKit.framework */; };
-		25BAFAF22207AE3B007DEA6D /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BAFAF12207AE3B007DEA6D /* libc.tbd */; };
-		25BAFAF42207AE61007DEA6D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BAFAF32207AE61007DEA6D /* libc++.tbd */; };
-		25BAFAF52207AE70007DEA6D /* DMDAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 25BAFAD5220799F8007DEA6D /* DMDAssets.bundle */; };
+		25BDFF152211FB83000D5C9A /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BDFF142211FB83000D5C9A /* libc++.1.tbd */; };
+		25BDFF172211FC4F000D5C9A /* libDMD_LITE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BDFF162211FC4F000D5C9A /* libDMD_LITE.a */; };
+		25E5662227564316AAE30C0A /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8449389B3D4703B8EA6DB1 /* CDVFile.m */; };
+		25E8E1C72211F4B0001201F3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E8E1C62211F4B0001201F3 /* QuartzCore.framework */; };
+		25E8E1C92211F4BE001201F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E8E1C82211F4BE001201F3 /* CoreGraphics.framework */; };
+		25E8E1CB2211F4CA001201F3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E8E1CA2211F4CA001201F3 /* CoreMotion.framework */; };
+		25E8E1CD2211F4D0001201F3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E8E1CC2211F4D0001201F3 /* CoreMedia.framework */; };
+		25E8E1CF2211F4DC001201F3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E8E1CE2211F4DC001201F3 /* CoreLocation.framework */; };
+		25E8E1D12211F4E3001201F3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E8E1D02211F4E2001201F3 /* AVFoundation.framework */; };
+		25E8E1DD2211F844001201F3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E8E1D22211F4EF001201F3 /* libc++.tbd */; };
+		26C6BB666DBF4E4585B04A3F /* UINavigationControllerLandscape.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7D6881A0DB42D3A7E05B6D /* UINavigationControllerLandscape.m */; };
+		2862C83F6E5A4F0E929B71A6 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57379AEC3904F999181D536 /* PhotoLibrary.swift */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		42847D324B21478E9F0B511E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827E121AF8624B72B0A4F991 /* ViewController.swift */; };
+		63ECDEA17F39496EA5B381F0 /* PhotoLibraryGetLibraryOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7960BBC03B5F4C05A0CDAC42 /* PhotoLibraryGetLibraryOptions.swift */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		7314BA5C7B034320A89983C8 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBEA56705094C54A7F62DE2 /* PhotoLibrary.swift */; };
-		7D7EBCD87FF44F27B8C2657D /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDCAF98C69847A7BCEB2BCD /* CDVLocalFilesystem.m */; };
-		9131FC1A8CF54502BB94A772 /* PhotoLibraryGetLibraryOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63392DA3412A4CD89B8F9DDE /* PhotoLibraryGetLibraryOptions.swift */; };
-		B16133E5009C43DFB6A922E3 /* PhotoLibraryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504AC807952943F6B82DF2AC /* PhotoLibraryProtocol.swift */; };
-		D5CFFD124C004670B88C1CDA /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F845CB111B4526879456E4 /* CDVAssetLibraryFilesystem.m */; };
-		E311C98832D4469785E067C9 /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CEEFE9A9B14B6A872903AA /* PhotoLibraryService.swift */; };
-		E67CC737AB82408DA0B13725 /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7469EEC5CDE74EFE8E492066 /* CDVFile.m */; };
+		70891861FB5749E09E957CF0 /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = EB58873629CC46C681DD2083 /* CDVLocalFilesystem.m */; };
+		71AA5D60BD0E46D49D2A0663 /* Panorama.swift in Sources */ = {isa = PBXBuildFile; fileRef = E117539B2C644AFBAED48D4E /* Panorama.swift */; };
+		78C94DB33DDA4B0FBFEAA0B4 /* libDMD_LITE.a in Sources */ = {isa = PBXBuildFile; fileRef = 37A4B73DFEBA4A9896FE376D /* libDMD_LITE.a */; };
+		896C8F2FBD9648188F1E4BCB /* PLITInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F400549BBA485BA206A16B /* PLITInfoView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9CC1B1DB517543B48F3DCAD1 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DF4AF42BFF4278B29F56A5 /* CDVAssetLibraryFilesystem.m */; };
+		A735DCC2720D4B9EB188FD90 /* PLITViewerVC+Controls.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA8227DCDD8438583DD64B1 /* PLITViewerVC+Controls.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C8117CC520814331808758EC /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669651A846984E329BD97B2C /* PhotoLibraryService.swift */; };
+		D428701292394B1E80FF4A8F /* PLITViewerVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86D10CB3625A4B2FB8F84796 /* PLITViewerVC.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E8A8D386395F4B788B5139E4 /* DMDAssets.bundle in Sources */ = {isa = PBXBuildFile; fileRef = 07F0813756AB4F648DE294CB /* DMDAssets.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		25D6230B2207732200B1D6D9 /* PBXContainerItemProxy */ = {
+		25E8E1C42211F452001201F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
 			proxyType = 2;
@@ -64,36 +65,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00F0A5FFEB284327999DBDE2 /* CDVFile.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVFile.h; path = "cordova-plugin-file/CDVFile.h"; sourceTree = "<group>"; };
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HelloCordova/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		0DBEA56705094C54A7F62DE2 /* PhotoLibrary.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = PhotoLibrary.swift; path = "cordova-plugin-photo-library/PhotoLibrary.swift"; sourceTree = "<group>"; };
+		05BEBB01129146C88FAB3365 /* DMD_LITE.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = DMD_LITE.h; path = "custom-plugin-panorama/DMD_LITE.h"; sourceTree = "<group>"; };
+		07F0813756AB4F648DE294CB /* DMDAssets.bundle */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.plug-in"; name = DMDAssets.bundle; path = "custom-plugin-panorama/DMDAssets.bundle"; sourceTree = "<group>"; };
+		0CFDC30054F14302A368B4F5 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLocalFilesystem.h; path = "cordova-plugin-file/CDVLocalFilesystem.h"; sourceTree = "<group>"; };
+		0D27EC811BAD4470BEAA42F3 /* PLITViewerVC.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = PLITViewerVC.h; path = "custom-plugin-panorama/PLITViewerVC.h"; sourceTree = "<group>"; };
+		13DF4AF42BFF4278B29F56A5 /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVAssetLibraryFilesystem.m; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.m"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* HelloCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCordova.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		25BAFABA22079600007DEA6D /* UINavigationControllerLandscape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UINavigationControllerLandscape.h; sourceTree = "<group>"; };
-		25BAFABC22079600007DEA6D /* PLITViewerVC+Controls.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PLITViewerVC+Controls.m"; sourceTree = "<group>"; };
-		25BAFABD22079601007DEA6D /* PLITViewerVC+Controls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PLITViewerVC+Controls.h"; sourceTree = "<group>"; };
-		25BAFABE22079601007DEA6D /* PLITViewerVC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PLITViewerVC.mm; sourceTree = "<group>"; };
-		25BAFABF22079601007DEA6D /* PLITViewerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLITViewerVC.h; sourceTree = "<group>"; };
-		25BAFAC022079601007DEA6D /* PLITInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLITInfoView.h; sourceTree = "<group>"; };
-		25BAFAC122079601007DEA6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		25BAFAC322079601007DEA6D /* libDMD_LITE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDMD_LITE.a; sourceTree = "<group>"; };
-		25BAFAC422079602007DEA6D /* UINavigationControllerLandscape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINavigationControllerLandscape.m; sourceTree = "<group>"; };
-		25BAFAC522079602007DEA6D /* PLITInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLITInfoView.m; sourceTree = "<group>"; };
-		25BAFAD12207993F007DEA6D /* DMD-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DMD-Bridging-Header.h"; sourceTree = "<group>"; };
-		25BAFAD222079940007DEA6D /* DMD_LITE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMD_LITE.h; sourceTree = "<group>"; };
-		25BAFAD5220799F8007DEA6D /* DMDAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DMDAssets.bundle; sourceTree = "<group>"; };
-		25BAFADD2207A236007DEA6D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		25BAFADF2207A245007DEA6D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		25BAFAE12207A253007DEA6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		25BAFAE32207A25D007DEA6D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		25BAFAE52207A270007DEA6D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		25BAFAE72207A27E007DEA6D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		25BAFAE92207A335007DEA6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		25BAFAEC2207A916007DEA6D /* libDMD_LITE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDMD_LITE.a; path = ../../../Documents/dmdpanoramalite_ios/DmdPanoLite_Swift/PanoLiteSwift/PanoLiteSwift/libDMD_LITE.a; sourceTree = "<group>"; };
-		25BAFAF12207AE3B007DEA6D /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
-		25BAFAF32207AE61007DEA6D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		25BAFAF62207B0D4007DEA6D /* libDMD_LITE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDMD_LITE.a; path = "../../plugins/custom-plugin-panorama/src/ios/libDMD_LITE.a"; sourceTree = "<group>"; };
+		25BDFF142211FB83000D5C9A /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		25BDFF162211FC4F000D5C9A /* libDMD_LITE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDMD_LITE.a; path = "../../plugins/custom-plugin-panorama/src/ios/libDMD_LITE.a"; sourceTree = "<group>"; };
+		25E8E1C62211F4B0001201F3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		25E8E1C82211F4BE001201F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25E8E1CA2211F4CA001201F3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		25E8E1CC2211F4D0001201F3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		25E8E1CE2211F4DC001201F3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		25E8E1D02211F4E2001201F3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		25E8E1D22211F4EF001201F3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		25E8E1D42211F50D001201F3 /* libDMD_LITE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDMD_LITE.a; path = "../../../cordova-panorama/plugins/custom-plugin-panorama/src/ios/libDMD_LITE.a"; sourceTree = "<group>"; };
+		25E8E1D62211F5EB001201F3 /* libDMD_LITE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDMD_LITE.a; path = ../../../Documents/dmdpanoramalite_ios/DmdPanoLite_Swift/PanoLiteSwift/PanoLiteSwift/libDMD_LITE.a; sourceTree = "<group>"; };
+		25E8E1DB2211F835001201F3 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
@@ -104,21 +96,31 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* HelloCordova-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HelloCordova-Prefix.pch"; sourceTree = "<group>"; };
-		504AC807952943F6B82DF2AC /* PhotoLibraryProtocol.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = PhotoLibraryProtocol.swift; path = "cordova-plugin-photo-library/PhotoLibraryProtocol.swift"; sourceTree = "<group>"; };
-		63392DA3412A4CD89B8F9DDE /* PhotoLibraryGetLibraryOptions.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = PhotoLibraryGetLibraryOptions.swift; path = "cordova-plugin-photo-library/PhotoLibraryGetLibraryOptions.swift"; sourceTree = "<group>"; };
+		37A4B73DFEBA4A9896FE376D /* libDMD_LITE.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libDMD_LITE.a; path = "custom-plugin-panorama/libDMD_LITE.a"; sourceTree = "<group>"; };
+		3E5D9FE78CB24D9FAFBB3DB6 /* DMD-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "DMD-Bridging-Header.h"; path = "custom-plugin-panorama/DMD-Bridging-Header.h"; sourceTree = "<group>"; };
+		49DE6B755A3442B88EF61711 /* UINavigationControllerLandscape.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = UINavigationControllerLandscape.h; path = "custom-plugin-panorama/UINavigationControllerLandscape.h"; sourceTree = "<group>"; };
+		4A51B5C728964ECC9341CA0B /* CDVFile.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVFile.h; path = "cordova-plugin-file/CDVFile.h"; sourceTree = "<group>"; };
+		56E57F04BE764148A2908D37 /* PhotoLibraryProtocol.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = PhotoLibraryProtocol.swift; path = "cordova-plugin-photo-library/PhotoLibraryProtocol.swift"; sourceTree = "<group>"; };
+		5B8449389B3D4703B8EA6DB1 /* CDVFile.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVFile.m; path = "cordova-plugin-file/CDVFile.m"; sourceTree = "<group>"; };
+		5FCA1B6FEE88432CB4B66988 /* PLITViewerVC+Controls.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "PLITViewerVC+Controls.h"; path = "custom-plugin-panorama/PLITViewerVC+Controls.h"; sourceTree = "<group>"; };
+		669651A846984E329BD97B2C /* PhotoLibraryService.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = PhotoLibraryService.swift; path = "cordova-plugin-photo-library/PhotoLibraryService.swift"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = HelloCordova/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		7469EEC5CDE74EFE8E492066 /* CDVFile.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVFile.m; path = "cordova-plugin-file/CDVFile.m"; sourceTree = "<group>"; };
+		75F400549BBA485BA206A16B /* PLITInfoView.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = PLITInfoView.m; path = "custom-plugin-panorama/PLITInfoView.m"; sourceTree = "<group>"; };
+		7960BBC03B5F4C05A0CDAC42 /* PhotoLibraryGetLibraryOptions.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = PhotoLibraryGetLibraryOptions.swift; path = "cordova-plugin-photo-library/PhotoLibraryGetLibraryOptions.swift"; sourceTree = "<group>"; };
+		7EEEEEC7B51244EB8B5DB166 /* PLITInfoView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = PLITInfoView.h; path = "custom-plugin-panorama/PLITInfoView.h"; sourceTree = "<group>"; };
+		827E121AF8624B72B0A4F991 /* ViewController.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "custom-plugin-panorama/ViewController.swift"; sourceTree = "<group>"; };
+		86D10CB3625A4B2FB8F84796 /* PLITViewerVC.mm */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PLITViewerVC.mm; path = "custom-plugin-panorama/PLITViewerVC.mm"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelloCordova-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "HelloCordova-Info.plist"; path = "HelloCordova/HelloCordova-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		AC55D80BEB234DF6AD6BF98A /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVAssetLibraryFilesystem.h; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.h"; sourceTree = "<group>"; };
-		AFDCAF98C69847A7BCEB2BCD /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLocalFilesystem.m; path = "cordova-plugin-file/CDVLocalFilesystem.m"; sourceTree = "<group>"; };
-		C5BF14AEFA61406CA11999C4 /* Panorama.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Panorama.swift; path = "custom-plugin-panorama/Panorama.swift"; sourceTree = "<group>"; };
-		C9F845CB111B4526879456E4 /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVAssetLibraryFilesystem.m; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.m"; sourceTree = "<group>"; };
-		E5939BF1C7414AE3BA716097 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLocalFilesystem.h; path = "cordova-plugin-file/CDVLocalFilesystem.h"; sourceTree = "<group>"; };
-		E5CEEFE9A9B14B6A872903AA /* PhotoLibraryService.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = PhotoLibraryService.swift; path = "cordova-plugin-photo-library/PhotoLibraryService.swift"; sourceTree = "<group>"; };
+		95C4641B61834131A6E4A590 /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVAssetLibraryFilesystem.h; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.h"; sourceTree = "<group>"; };
+		9EA8227DCDD8438583DD64B1 /* PLITViewerVC+Controls.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "PLITViewerVC+Controls.m"; path = "custom-plugin-panorama/PLITViewerVC+Controls.m"; sourceTree = "<group>"; };
+		E117539B2C644AFBAED48D4E /* Panorama.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Panorama.swift; path = "custom-plugin-panorama/Panorama.swift"; sourceTree = "<group>"; };
+		E57379AEC3904F999181D536 /* PhotoLibrary.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = PhotoLibrary.swift; path = "cordova-plugin-photo-library/PhotoLibrary.swift"; sourceTree = "<group>"; };
+		EB58873629CC46C681DD2083 /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLocalFilesystem.m; path = "cordova-plugin-file/CDVLocalFilesystem.m"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = HelloCordova/config.xml; sourceTree = "<group>"; };
+		FD7D6881A0DB42D3A7E05B6D /* UINavigationControllerLandscape.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = UINavigationControllerLandscape.m; path = "custom-plugin-panorama/UINavigationControllerLandscape.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,15 +128,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25BAFAF42207AE61007DEA6D /* libc++.tbd in Frameworks */,
-				25BAFAF22207AE3B007DEA6D /* libc.tbd in Frameworks */,
-				25BAFAEA2207A336007DEA6D /* UIKit.framework in Frameworks */,
-				25BAFAE82207A27E007DEA6D /* CoreLocation.framework in Frameworks */,
-				25BAFAE62207A270007DEA6D /* CoreMedia.framework in Frameworks */,
-				25BAFAE42207A25D007DEA6D /* CoreMotion.framework in Frameworks */,
-				25BAFAE22207A253007DEA6D /* CoreGraphics.framework in Frameworks */,
-				25BAFAE02207A246007DEA6D /* QuartzCore.framework in Frameworks */,
-				25BAFADE2207A236007DEA6D /* AVFoundation.framework in Frameworks */,
+				25BDFF172211FC4F000D5C9A /* libDMD_LITE.a in Frameworks */,
+				25BDFF152211FB83000D5C9A /* libc++.1.tbd in Frameworks */,
+				25E8E1DD2211F844001201F3 /* libc++.tbd in Frameworks */,
+				25E8E1D12211F4E3001201F3 /* AVFoundation.framework in Frameworks */,
+				25E8E1CF2211F4DC001201F3 /* CoreLocation.framework in Frameworks */,
+				25E8E1CD2211F4D0001201F3 /* CoreMedia.framework in Frameworks */,
+				25E8E1CB2211F4CA001201F3 /* CoreMotion.framework in Frameworks */,
+				25E8E1C92211F4BE001201F3 /* CoreGraphics.framework in Frameworks */,
+				25E8E1C72211F4B0001201F3 /* QuartzCore.framework in Frameworks */,
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,17 +208,18 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				25BAFAF62207B0D4007DEA6D /* libDMD_LITE.a */,
-				25BAFAF32207AE61007DEA6D /* libc++.tbd */,
-				25BAFAF12207AE3B007DEA6D /* libc.tbd */,
-				25BAFAEC2207A916007DEA6D /* libDMD_LITE.a */,
-				25BAFAE92207A335007DEA6D /* UIKit.framework */,
-				25BAFAE72207A27E007DEA6D /* CoreLocation.framework */,
-				25BAFAE52207A270007DEA6D /* CoreMedia.framework */,
-				25BAFAE32207A25D007DEA6D /* CoreMotion.framework */,
-				25BAFAE12207A253007DEA6D /* CoreGraphics.framework */,
-				25BAFADF2207A245007DEA6D /* QuartzCore.framework */,
-				25BAFADD2207A236007DEA6D /* AVFoundation.framework */,
+				25BDFF162211FC4F000D5C9A /* libDMD_LITE.a */,
+				25BDFF142211FB83000D5C9A /* libc++.1.tbd */,
+				25E8E1DB2211F835001201F3 /* libc.tbd */,
+				25E8E1D42211F50D001201F3 /* libDMD_LITE.a */,
+				25E8E1D62211F5EB001201F3 /* libDMD_LITE.a */,
+				25E8E1D22211F4EF001201F3 /* libc++.tbd */,
+				25E8E1D02211F4E2001201F3 /* AVFoundation.framework */,
+				25E8E1CE2211F4DC001201F3 /* CoreLocation.framework */,
+				25E8E1CC2211F4D0001201F3 /* CoreMedia.framework */,
+				25E8E1CA2211F4CA001201F3 /* CoreMotion.framework */,
+				25E8E1C82211F4BE001201F3 /* CoreGraphics.framework */,
+				25E8E1C62211F4B0001201F3 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -225,7 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				301BF535109A57CC0062928A /* libCordova.a */,
-				25D6230C2207732200B1D6D9 /* Cordova.framework */,
+				25E8E1C52211F452001201F3 /* Cordova.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -243,30 +246,30 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				25BAFAD5220799F8007DEA6D /* DMDAssets.bundle */,
-				25BAFAD222079940007DEA6D /* DMD_LITE.h */,
-				25BAFAD12207993F007DEA6D /* DMD-Bridging-Header.h */,
-				25BAFAC122079601007DEA6D /* AppDelegate.swift */,
-				25BAFAC322079601007DEA6D /* libDMD_LITE.a */,
-				25BAFAC022079601007DEA6D /* PLITInfoView.h */,
-				25BAFAC522079602007DEA6D /* PLITInfoView.m */,
-				25BAFABF22079601007DEA6D /* PLITViewerVC.h */,
-				25BAFABE22079601007DEA6D /* PLITViewerVC.mm */,
-				25BAFABD22079601007DEA6D /* PLITViewerVC+Controls.h */,
-				25BAFABC22079600007DEA6D /* PLITViewerVC+Controls.m */,
-				25BAFABA22079600007DEA6D /* UINavigationControllerLandscape.h */,
-				25BAFAC422079602007DEA6D /* UINavigationControllerLandscape.m */,
-				C5BF14AEFA61406CA11999C4 /* Panorama.swift */,
-				7469EEC5CDE74EFE8E492066 /* CDVFile.m */,
-				AFDCAF98C69847A7BCEB2BCD /* CDVLocalFilesystem.m */,
-				C9F845CB111B4526879456E4 /* CDVAssetLibraryFilesystem.m */,
-				00F0A5FFEB284327999DBDE2 /* CDVFile.h */,
-				E5939BF1C7414AE3BA716097 /* CDVLocalFilesystem.h */,
-				AC55D80BEB234DF6AD6BF98A /* CDVAssetLibraryFilesystem.h */,
-				0DBEA56705094C54A7F62DE2 /* PhotoLibrary.swift */,
-				504AC807952943F6B82DF2AC /* PhotoLibraryProtocol.swift */,
-				E5CEEFE9A9B14B6A872903AA /* PhotoLibraryService.swift */,
-				63392DA3412A4CD89B8F9DDE /* PhotoLibraryGetLibraryOptions.swift */,
+				5B8449389B3D4703B8EA6DB1 /* CDVFile.m */,
+				EB58873629CC46C681DD2083 /* CDVLocalFilesystem.m */,
+				13DF4AF42BFF4278B29F56A5 /* CDVAssetLibraryFilesystem.m */,
+				4A51B5C728964ECC9341CA0B /* CDVFile.h */,
+				0CFDC30054F14302A368B4F5 /* CDVLocalFilesystem.h */,
+				95C4641B61834131A6E4A590 /* CDVAssetLibraryFilesystem.h */,
+				E57379AEC3904F999181D536 /* PhotoLibrary.swift */,
+				56E57F04BE764148A2908D37 /* PhotoLibraryProtocol.swift */,
+				669651A846984E329BD97B2C /* PhotoLibraryService.swift */,
+				7960BBC03B5F4C05A0CDAC42 /* PhotoLibraryGetLibraryOptions.swift */,
+				FD7D6881A0DB42D3A7E05B6D /* UINavigationControllerLandscape.m */,
+				75F400549BBA485BA206A16B /* PLITInfoView.m */,
+				9EA8227DCDD8438583DD64B1 /* PLITViewerVC+Controls.m */,
+				86D10CB3625A4B2FB8F84796 /* PLITViewerVC.mm */,
+				37A4B73DFEBA4A9896FE376D /* libDMD_LITE.a */,
+				07F0813756AB4F648DE294CB /* DMDAssets.bundle */,
+				827E121AF8624B72B0A4F991 /* ViewController.swift */,
+				E117539B2C644AFBAED48D4E /* Panorama.swift */,
+				49DE6B755A3442B88EF61711 /* UINavigationControllerLandscape.h */,
+				7EEEEEC7B51244EB8B5DB166 /* PLITInfoView.h */,
+				5FCA1B6FEE88432CB4B66988 /* PLITViewerVC+Controls.h */,
+				0D27EC811BAD4470BEAA42F3 /* PLITViewerVC.h */,
+				3E5D9FE78CB24D9FAFBB3DB6 /* DMD-Bridging-Header.h */,
+				05BEBB01129146C88FAB3365 /* DMD_LITE.h */,
 			);
 			name = Plugins;
 			path = HelloCordova/Plugins;
@@ -339,11 +342,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		25D6230C2207732200B1D6D9 /* Cordova.framework */ = {
+		25E8E1C52211F452001201F3 /* Cordova.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Cordova.framework;
-			remoteRef = 25D6230B2207732200B1D6D9 /* PBXContainerItemProxy */;
+			remoteRef = 25E8E1C42211F452001201F3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		301BF535109A57CC0062928A /* libCordova.a */ = {
@@ -360,7 +363,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25BAFAF52207AE70007DEA6D /* DMDAssets.bundle in Resources */,
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
@@ -382,7 +384,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js\n";
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -392,22 +394,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25BAFAC722079602007DEA6D /* PLITViewerVC+Controls.m in Sources */,
-				25BAFAC922079602007DEA6D /* PLITViewerVC.mm in Sources */,
-				25BAFACC22079602007DEA6D /* AppDelegate.swift in Sources */,
-				25BAFACF22079602007DEA6D /* UINavigationControllerLandscape.m in Sources */,
-				25BAFAD022079602007DEA6D /* PLITInfoView.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				228E073031E94ADEA2919C6A /* Panorama.swift in Sources */,
-				E67CC737AB82408DA0B13725 /* CDVFile.m in Sources */,
-				7D7EBCD87FF44F27B8C2657D /* CDVLocalFilesystem.m in Sources */,
-				D5CFFD124C004670B88C1CDA /* CDVAssetLibraryFilesystem.m in Sources */,
-				7314BA5C7B034320A89983C8 /* PhotoLibrary.swift in Sources */,
-				B16133E5009C43DFB6A922E3 /* PhotoLibraryProtocol.swift in Sources */,
-				E311C98832D4469785E067C9 /* PhotoLibraryService.swift in Sources */,
-				9131FC1A8CF54502BB94A772 /* PhotoLibraryGetLibraryOptions.swift in Sources */,
+				25E5662227564316AAE30C0A /* CDVFile.m in Sources */,
+				70891861FB5749E09E957CF0 /* CDVLocalFilesystem.m in Sources */,
+				9CC1B1DB517543B48F3DCAD1 /* CDVAssetLibraryFilesystem.m in Sources */,
+				2862C83F6E5A4F0E929B71A6 /* PhotoLibrary.swift in Sources */,
+				1A2D4C206A87485CBF697A84 /* PhotoLibraryProtocol.swift in Sources */,
+				C8117CC520814331808758EC /* PhotoLibraryService.swift in Sources */,
+				63ECDEA17F39496EA5B381F0 /* PhotoLibraryGetLibraryOptions.swift in Sources */,
+				26C6BB666DBF4E4585B04A3F /* UINavigationControllerLandscape.m in Sources */,
+				896C8F2FBD9648188F1E4BCB /* PLITInfoView.m in Sources */,
+				A735DCC2720D4B9EB188FD90 /* PLITViewerVC+Controls.m in Sources */,
+				D428701292394B1E80FF4A8F /* PLITViewerVC.mm in Sources */,
+				78C94DB33DDA4B0FBFEAA0B4 /* libDMD_LITE.a in Sources */,
+				E8A8D386395F4B788B5139E4 /* DMDAssets.bundle in Sources */,
+				42847D324B21478E9F0B511E /* ViewController.swift in Sources */,
+				71AA5D60BD0E46D49D2A0663 /* Panorama.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,20 +445,15 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "HelloCordova/HelloCordova-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/HelloCordova/**";
 				PRODUCT_BUNDLE_IDENTIFIER = likokowloon;
 				PRODUCT_NAME = HelloCordova;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -474,19 +473,21 @@
 				GCC_PREFIX_HEADER = "HelloCordova/HelloCordova-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
-				INFOPLIST_FILE = "HelloCordova/HelloCordova-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
 				);
+				INFOPLIST_FILE = "HelloCordova/HelloCordova-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/HelloCordova/**";
 				PRODUCT_BUNDLE_IDENTIFIER = likokowloon;
 				PRODUCT_NAME = HelloCordova;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -503,7 +504,6 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
@@ -518,6 +518,7 @@
 				SKIP_INSTALL = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -534,7 +535,6 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
@@ -547,6 +547,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

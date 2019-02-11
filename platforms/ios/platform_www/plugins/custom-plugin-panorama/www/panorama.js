@@ -9,5 +9,4 @@ var Panorama = {
 };
 module.exports = Panorama;
 
-
 });

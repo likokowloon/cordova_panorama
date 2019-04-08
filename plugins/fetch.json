@@ -10,7 +10,7 @@
   "plugin-panoramafunction": {
     "source": {
       "type": "local",
-      "path": "/Users/liko/hello_panorama/node_modules/plugin-panoramaFunction"
+      "path": "/Users/liko/cordova_panorama/node_modules/plugin-panoramaFunction"
     },
     "is_top_level": true,
     "variables": {}

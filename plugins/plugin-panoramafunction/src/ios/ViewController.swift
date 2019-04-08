@@ -55,7 +55,7 @@ class ViewController: UIViewController, MonitorDelegate, UIGestureRecognizerDele
         tapRecognizer?.delegate=self
         shooterView?.addGestureRecognizer(tapRecognizer!)
         
-        self.activityInd = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
+        self.activityInd = UIActivityIndicatorView(style: .whiteLarge)
         activityInd?.hidesWhenStopped=true
         activityInd?.stopAnimating()
         activityInd?.center=aView.center
@@ -71,7 +71,7 @@ class ViewController: UIViewController, MonitorDelegate, UIGestureRecognizerDele
     override func viewDidAppear(_ animated: Bool) {
         shooterView?.isHidden=false
         self.restart(nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.willEnterForeground), name: .UIApplicationWillEnterForeground, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.willEnterForeground), name: UIApplication.willEnterForegroundNotification, object: nil)
         super.viewDidAppear(animated)
     }
     

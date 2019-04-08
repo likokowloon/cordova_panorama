@@ -18,44 +18,27 @@
  */
 var app = {
     // Application Constructor
-initialize: function() {
+    initialize: function() {
     document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
 },
-    
-    // deviceready Event Handler
-    //
-    // Bind any cordova events here. Common events are:
-    // 'pause', 'resume', etc.
+
+// deviceready Event Handler
+//
+// Bind any cordova events here. Common events are:
+// 'pause', 'resume', etc.
 onDeviceReady: function() {
     document.getElementById("scan").onclick = function() {
         cordova.plugins.panoramaFunction.start(function(result){
-                                               alert('panorama test');
-                                               },
-                                               function(error) {
-                                               alert('panorama error');
-                                               }, {});
-/**
-        cordova.plugins.barcodeScanner.scan(
-                                            function (result) {
-                                            alert("We got a barcode\n" +
-                                                  "Result: " + result.text + "\n" +
-                                                  "Format: " + result.format + "\n" +
-                                                  "Cancelled: " + result.cancelled);
-                                            },
-                                            function (error) {
-                                            alert("Scanning failed: " + error);
-                                            },
-                                            {
-                                            "preferFrontCamera" : false, // iOS and Android
-                                            "showFlipCameraButton" : true, // iOS and Android
-                                            }
-                                            );
-**/
- }
+            alert('panorama test');
+            },
+            function(error) {
+                alert('panorama error');
+            }, {});
+    }
     this.receivedEvent('deviceready');
 },
     
-    // Update DOM on a Received Event
+// Update DOM on a Received Event
 receivedEvent: function(id) {
     var parentElement = document.getElementById(id);
     var listeningElement = parentElement.querySelector('.listening');

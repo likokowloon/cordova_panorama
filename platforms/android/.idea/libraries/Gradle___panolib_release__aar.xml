@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :panolib-release:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/panolib-release.aar/c91e440cd82516abfe12ee9ff7047720/jars/libs/dmd_pano_library_lite.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/panolib-release.aar/c91e440cd82516abfe12ee9ff7047720/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/panolib-release.aar/c91e440cd82516abfe12ee9ff7047720/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

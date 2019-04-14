@@ -1,4 +1,4 @@
-#Sun Apr 14 21:51:06 JST 2019
+#Sun Apr 14 22:32:58 JST 2019
 base.0=/Users/liko/cordova_panorama/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

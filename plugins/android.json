@@ -1,0 +1,22 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "com.example.panorama"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.example.panorama"
+    },
+    "plugin-panoramafunction": {
+      "ANDROID_SUPPORT_LIBRARY_VERSION": "26+",
+      "PACKAGE_NAME": "com.example.panorama"
+    }
+  },
+  "dependent_plugins": {}
+}
